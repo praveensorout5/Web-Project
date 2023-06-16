@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>University Website Design - Praveen Kumar</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/820b5ac00f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="exam-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/SVSU-Logo.png"></a>
+
+                <div class="nav-links" id="navLinks">
+
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="exams.html">EXAMS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Certificate, Syllabus & Sample papers</h1>
+
+        </section>
+
+        <!-----Exam----->
+
+        <section class="exam-content">
+            <div class="row">
+                <div class="exam-left">
+                    <img src="eduford_img/certificate.jpg">
+                    <h2> Syllabus, Reference & Sample papers</h2>
+                    <p>Our University will provide the refrence, syllabus and sample papers
+                    for all courses that are currently running in this university.
+                We are also try to provide notes and all these things in the form of pdf on this exam page.</p>
+                <br>
+                <p>The Sample papers , Old question papers , Syllabus , Important topics, Books Reference
+                    will be providing on this page time to time. And we will try to give mentorship from teachers 
+                    and seniors to all of you through your queries from whatsapp groups. We will try to make a query
+                    button on this page as soon as possible. I hope my hardwork may help you in future.
+                </p>
+                <br>
+                <p>Sample papers will be given through a specify pdf which is uploaded in the sample paper 
+                    content.
+                    Books Reference for all courses will be given through pdf inside reference content
+                    with course.
+                    Old question paper will be uploaded in their specify content.
+                    Atlast, all the things that uploaded will be upload in their specify content.
+                </p>
+                <br>
+                <p> At the end of the webpage I wish for your bright future and do study like enjoy not 
+                    feel it as a load on you. And suggest you to do the Work that you enjoy in your life.
+                    Big dreams make true when you want and work on it.
+                </p>
+                <a href="sample.html" class="hero-btn2">Click here for Sample Papers</a>
+                <a href="syllabus.html" class="hero-btn2">Click here for Syllabus</a>
+                <p>Click on 1st tab above for Sample papers And 2nd Tab for Syllabus.</p>
+
+                <div class="comment-box"></div>
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT
+                    </button>
+
+                </form>
+                
+                </div>
+                <div class="exam-right">
+                <h3>Course Categories</h3>
+                <div>
+                    <span>B.tech CSE (AI&ML)</span>
+                    <span>07</span>
+                </div>
+                <div>
+                    <span>B.VOC Mechanical</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Diploma in Yoga</span>
+                    <span> 15</span>
+                </div>
+                <div>
+                    <span>BBA</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>M.tech Robotics</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>MBA</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>M.Sc</span>
+                    <span>16</span>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----Footer----->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are the community of India's First Skill University.
+                We provide Reference, syllabus and sample papers on this page.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+
+            </div>
+            <p>Made By <i class="fa fa-heart-o"></i> Praveen Kumar</p>
+        </section>
+
+
+        <!-----Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu() {
+                navLinks.style.right = "0px";
+            }
+            function hidemenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

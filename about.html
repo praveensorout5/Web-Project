@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>University Website Design - Praveen Kumar</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/820b5ac00f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/SVSU-Logo.png"></a>
+
+                <div class="nav-links" id="navLinks">
+
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="exams.html">EXAMS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+
+        <!-----about us content----->
+
+        <section class="about-us">
+
+             <div class="row">
+                <div class="about-col">
+
+                    <h1>We are the community of India's First Skill University</h1>
+                    <p>Our University is the first skill university of India and it is situated in 
+                        Palwal, Haryana. The main Campus is in Dudhola and transit campus is in Gurugram.
+                        In Our University there are many technical and skill courses. These courses are 
+                        B.tech CSE (AI&ML), B.tech Mechanical Engineering, B.VOC Mechanical and Others,
+                        Diploma in many streams, M.tech Robotics and Automation and some other courses also.
+                        I made especially this website for all students who studied in this university to provide
+                        them all years questions papers, sample papers, old question papers,refrences, syllabus of all courses,
+                        Papers Structure, Marks knowledge about paper and some other important things. Hopefully,
+                        you all like this website and give feedback in future. I only want smile on your faces and pray
+                        for your bright future.<br>
+                         BE HAPPY, WORK AND ACHIEVE YOUR DREAMS.
+                    </p>
+
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+
+                <div class="about-col">
+                    <img src="eduford_img/about-main.jpg">
+                </div>
+             </div>
+             
+        </section>
+
+        <!-----Footer----->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are the community of India's First Skill University.</p>
+            <div class="icons">
+
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+
+            </div>
+            <p>Made By <i class="fa fa-heart-o"></i> Praveen Kumar</p>
+        </section>
+
+
+        <!-----Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu() {
+                navLinks.style.right = "0px";
+            }
+            function hidemenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
